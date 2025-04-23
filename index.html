@@ -1,53 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alessio's Pizzas</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Cardápio</a></li>
-          <li><a href="#">Sobre Nós</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <section class="welcome">
-      <div class="welcome-content">
-        <h1>Bem-vindo à Alessio's</h1>
-        <p>Saborosas pizzas feitas especialmente para você!</p>
-        <li class="btn"><a href="#">Ver Cardápio</a></li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://unpkg.com/feather-icons"></script>
+  <title>Alessio's Pizzas</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#welcome">Home</a></li>
+        <li><a href="#secao3">Cardápio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="welcome">
+    <div class="welcome-content">
+      <h1>Bem-vindo à Alessio's</h1>
+      <p>Saborosas pizzas feitas especialmente para você!</p>
+      <li class="btn"><a href="#secao3">Ver Cardápio</a></li>
+    </div>
+  </section>
+  <section>
+    <div>
+
+    </div>
+  </section>
+  <p class="espada">
+    Cardápio
+  </p>
+  </section>
+  <section class="pizzas">
+    <section id="secao3">
+      <img class="duplas" src="pepperoni.webp" alt="">
+      <li class="cardap">Pizza de pepperoni R$24,90</li>
+    </section>
+
+    <section id="secao3">
+      <div class="secao3">
+        <img class="duplass" src="frangocatupiryy.png" alt="">
       </div>
+      <li class="cardap">Pizza de frango c / catupiry R$24,90</li>
     </section>
-    <section>
-        <div>
 
-        </div>
+  </section>
+  <section class="pizzas">
+    <section id="secao3">
+      <img class="strogonoff" src="pizza_strogonoff.png" alt="">
+      <li class="cardap">Pizza de strogonoff R$24,90</li>
     </section>
-        <p class="espada">
-          Cardápio
-        </p>
-      </section>
-    
-      <section id="secao3">
-        <li class="espdas">
-          <img class="duplas" src="imgs/duplas.png" alt="">
-          <ul class="textoEspadas">
-            <li><img class="espadinha" src="imgs/sword.png" alt=""><ul class="cardap">Espada
-                Medieval</ul>
-            </li>
-        </li>
-    
-        </li>
-      </section>
-    <footer class="rodape">
-      <p>&copy;Alessio's Pizzaria 2025</p>
-    </footer>
-  </body>
+
+    <section id="secao3">
+      <div class="secao3">
+        <img class="quatro_queijos" src="pizza_quatro.png" alt="">
+      </div>
+      <li class="cardap">Pizza quatro queijos R$24,90</li>
+    </section>
+
+  </section>
+  <footer class="rodape">
+    <p>&copy;Alessio's Pizzaria 2025</p>
+    <a class="github" href="https://github.com/lorenzoDias0"><i data-feather="github"></i>Github</a>
+    <a class="instagram" href="https://www.instagram.com/dias.lorenzo_/"><i data-feather="instagram"></i>Insta</a>
+  </footer>
+  <script>
+    feather.replace();
+  </script>
+</body>
+
 </html>
