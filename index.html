@@ -63,6 +63,36 @@
     </section>
 
   </section>
+  <section class="sugestao-pizza">
+    <h2>Faça sua sugestão de pizza!</h2>
+    <form class="formulariosugestao">
+      <div class="form-group">
+        <label for="tipo-pizza">Tipo da pizza:</label>
+        <select id="tipo-pizza" name="tipo-pizza">
+          <option value="">Selecione...</option>
+          <option value="doce">Doce</option>
+          <option value="salgada">Salgada</option>
+        </select>
+      </div>
+      
+      <div class="formulariodescricao">
+        <label for="descricao">Descrição da pizza:</label>
+        <textarea id="descricao" name="descricao" rows="4" placeholder="Descreva como você quer sua pizza..."></textarea>
+      </div>
+      
+      <div class="formulariodescricao">
+        <label for="ingredientes">Ingredientes obrigatórios:</label>
+        <input type="text" id="ingredientes" name="ingredientes" placeholder="Ex: Queijo, tomate, orégano...">
+      </div>
+      
+      <div class="formulariodescricao">
+        <label for="valor">Valor sugerido (R$):</label>
+        <input type="number" id="valor" name="valor" min="0" step="0.01" placeholder="Ex: 24.90">
+      </div>
+      
+      <button type="submit" class="btn-enviar">Confirmar e Enviar</button>
+    </form>
+  </section>
   <footer class="rodape">
     <p>&copy;Alessio's Pizzaria 2025</p>
     <a class="github" href="https://github.com/lorenzoDias0"><i data-feather="github"></i>Github</a>
